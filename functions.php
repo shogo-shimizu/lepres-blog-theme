@@ -6,14 +6,22 @@ add_action('wp_enqueue_scripts', 'add_js');
 
 function add_styles()
 {
+    // adobe fonts
+    wp_enqueue_style(
+        'adobe_font_en',
+        'https://use.typekit.net/cmm2nax.css'
+    );
+    // bootstrap
     wp_enqueue_style(
         'bootstrap_css',
         get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css'
     );
+    // fontawesome
     wp_enqueue_style(
         'fontawesome',
         'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
     );
+    // cssfile
     wp_enqueue_style(
         'style',
         get_template_directory_uri() . '/style.css',

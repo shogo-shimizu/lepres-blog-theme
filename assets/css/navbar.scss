@@ -12,6 +12,9 @@
     position: relative;
     z-index: 999;
     box-shadow: 0 0 10px rgba(#333,0.4);
+    font-family: "cinema-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     @media ($md) {
         height: 60px;
         position: fixed;
@@ -43,6 +46,10 @@
             }
             h4{
                 margin: 0;
+                font-size: 4em;
+                @media($md){
+                    font-size: 2.5em;
+                }
             }
         }
         .navLinksContainer{
@@ -111,9 +118,10 @@
                     text-decoration: none;
                     color: $color_blue;
                     transition: 0.3s;
+                    font-size: 2em;
                     &:hover{
                         color: $color_orange;
-                        font-size: 1.8em;
+                        font-size: 2.8em;
                     }
                 }
             }
@@ -182,10 +190,15 @@
         color: white;
         transition: 0.3s;
         &:hover{
-            font-size: 1.8em;
+            color: $color_orange;
+            font-size: 2.8em;
         }
         @media($md){
             color: $color_blue;
         }
+    }
+    nav .logo h4{
+        font-size: 3em;
+        transition: 0.3s;
     }
 }

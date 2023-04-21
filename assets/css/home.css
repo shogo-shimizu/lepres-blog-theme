@@ -12,6 +12,11 @@ Theme Name: fox-hare
   transform: translateX(-50%);
   animation: border_anim 2s linear forwards;
 }
+@media (max-width:768px) {
+  .borderTopAnime:before {
+    content: none;
+  }
+}
 
 @keyframes border_anim {
   0% {
@@ -30,6 +35,11 @@ Theme Name: fox-hare
   border-bottom: solid 4px #00478B;
   transform: translateX(-50%);
   animation: border_anim 2s linear forwards;
+}
+@media (max-width:768px) {
+  .borderBottomAnime:after {
+    content: none;
+  }
 }
 
 @keyframes border_anim {
@@ -54,6 +64,7 @@ Theme Name: fox-hare
 @media (max-width:768px) {
   .borderLeftAnime:before {
     animation: none;
+    content: none;
   }
 }
 
@@ -80,8 +91,12 @@ Theme Name: fox-hare
 }
 @media (max-width:768px) {
   .header .headerLeft {
-    border-bottom: 3px solid #00478B;
+    border-bottom: none;
     border-right: none;
+    display: flex;
+    height: 100%;
+    background-image: url("../images/graf-rabbit.png");
+    background-size: cover;
   }
 }
 .header .headerLeft .title {
@@ -89,29 +104,61 @@ Theme Name: fox-hare
   height: 40%;
   top: 0;
   left: 0;
+  font-family: "cinema-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #00478B;
   transform: rotate(-35deg) translateX(-30%) translateY(10%);
   z-index: 0;
 }
+@media (max-width:768px) {
+  .header .headerLeft .title {
+    width: 100%;
+    transform: none;
+    background: none;
+    position: static;
+    row-gap: 0;
+    flex-direction: column;
+  }
+}
 .header .headerLeft .title h1 {
   text-align: center;
   width: 100%;
-  font-size: 6em;
+  font-size: 8em;
   color: #F6AB43;
+  text-shadow: 2px 2px 2px rgba(250, 250, 250, 0.8);
+}
+@media (max-width:768px) {
+  .header .headerLeft .title h1 {
+    font-size: 5em;
+    color: #00478B;
+    text-align: left;
+    padding-left: 30px;
+    background-color: rgba(250, 250, 250, 0.4);
+  }
 }
 .header .headerLeft .title h4 {
   width: 100%;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   margin-top: 20px;
+  padding-left: 100px;
   color: #F6AB43;
+}
+@media (max-width:768px) {
+  .header .headerLeft .title h4 {
+    font-size: 1.7em;
+    color: #FB966E;
+    padding-left: 0;
+    text-shadow: 1px 1px 1px rgba(250, 250, 250, 0.8);
+  }
 }
 .header .headerRight {
   background-image: url("../images/graf-rabbit.png");
@@ -121,6 +168,7 @@ Theme Name: fox-hare
 @media (max-width:768px) {
   .header .headerRight {
     border-bottom: 3px solid #00478B;
+    display: none;
   }
 }
 

@@ -13,6 +13,11 @@ Theme Name : fox-hare
   transform: translateX(-50%);
   animation: border_anim 2s linear forwards;
 }
+@media (max-width:768px) {
+  .borderTopAnime:before {
+    content: none;
+  }
+}
 
 @keyframes border_anim {
   0% {
@@ -31,6 +36,11 @@ Theme Name : fox-hare
   border-bottom: solid 4px #00478B;
   transform: translateX(-50%);
   animation: border_anim 2s linear forwards;
+}
+@media (max-width:768px) {
+  .borderBottomAnime:after {
+    content: none;
+  }
 }
 
 @keyframes border_anim {
@@ -55,6 +65,7 @@ Theme Name : fox-hare
 @media (max-width:768px) {
   .borderLeftAnime:before {
     animation: none;
+    content: none;
   }
 }
 
