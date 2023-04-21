@@ -9,8 +9,10 @@
     </div>
     <div class="footerInfo">
         <h2>Blog Infomation</h2>
-        <p>USAGI</p>
-        <p><?php bloginfo('admin_email') ?></p>
+        <p>お問合せ</p>
+        <a href="mailto:<?php bloginfo('admin_email') ?>">
+            <p><?php bloginfo('admin_email') ?></p>
+        </a>
         <p></p>
     </div>
     <!-- <div class="footerContact">

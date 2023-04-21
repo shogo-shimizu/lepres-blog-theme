@@ -93,7 +93,7 @@ div#ez-toc-container p.ez-toc-title:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   padding-right: 8px;
-  color: #91AD70;
+  color: #F0A986;
 }
 
 #ez-toc-container nav {
@@ -180,7 +180,7 @@ div#ez-toc-sticky-container ul li {
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   padding-right: 8px;
-  color: #91AD70;
+  color: #F0A986;
 }
 
 #ez-toc-sticky-container nav {
@@ -231,7 +231,7 @@ header {
 }
 
 .headerBackImage {
-  background-image: url("../images/leaf.jpg");
+  background-image: url("../images/life.jpeg");
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -245,7 +245,7 @@ header {
 main {
   width: 100vw;
   padding: 50px 2% 50px 2%;
-  background-color: #f6ab43;
+  background-color: #ffffea;
   display: flex;
   justify-content: space-around;
   gap: 20px;
@@ -262,7 +262,9 @@ main .content {
   max-width: 960px;
   min-width: 600px;
   padding: 30px;
-  background-color: #F6AB43;
+  background-color: #FFFFEA;
+  font-weight: 300;
+  font-style: normal;
 }
 @media (max-width:768px) {
   main .content {
