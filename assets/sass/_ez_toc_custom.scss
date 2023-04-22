@@ -16,11 +16,11 @@ div#ez-toc-container
 
 div#ez-toc-container p.ez-toc-title:before
 {
-  content: '\f4d8';
+  content: '\f52d';
   font-family: 'Font Awesome 5 Free';
   font-weight: 600;
   padding-right: 8px;
-  color: $color-green;
+  color: $color-blue;
 }
 #ez-toc-container nav
 {
@@ -54,8 +54,8 @@ div#ez-toc-container ul li
 {
   // color: #428bca;
   // content: '\f35a';
-  color: $color_orange;
-  content: '\f787';
+  color: $color_blue;
+  content: '\f304';
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   padding-right: 0.3em;

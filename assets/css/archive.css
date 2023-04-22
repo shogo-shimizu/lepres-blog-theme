@@ -81,8 +81,18 @@ Theme Name: fox-hare
   width: 100%;
 }
 
+.backgroundImage {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("../images/life.jpeg");
+  z-index: -1;
+  opacity: 0.7;
+}
+
 main {
-  min-height: 2000px;
   width: 100%;
   padding-bottom: 100px;
 }
@@ -97,14 +107,19 @@ main .newContents > h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 30px;
   width: 100%;
+  font-weight: bold;
+  background-color: rgba(255, 255, 234, 0.9);
 }
 main .newContents_content {
   margin: 30px auto;
   width: 40%;
-  box-shadow: 0 0 10px rgba(51, 51, 51, 0.4);
+  box-shadow: 2px 2px 10px rgba(51, 51, 51, 0.7);
+  border-radius: 10px;
   padding: 10px 3% 10px 3%;
   align-items: center;
+  background-color: rgba(255, 255, 234, 0.9);
 }
 @media (max-width:768px) {
   main .newContents_content {
@@ -175,7 +190,7 @@ main .newContents_content .newContent .categoryLinks a {
   margin-bottom: 3px;
   padding: 2px 5px 2px 5px;
   text-align: center;
-  color: #F6AB43;
+  color: white;
   text-decoration: none;
   font-size: 0.8em;
   transition: 0.3s;
@@ -194,7 +209,7 @@ main .newContents_content .newContent .tagLinks a {
   margin-bottom: 3px;
   padding: 2px 5px 2px 5px;
   text-align: center;
-  color: #F6AB43;
+  color: white;
   text-decoration: none;
   font-size: 0.8em;
   transition: 0.3s;

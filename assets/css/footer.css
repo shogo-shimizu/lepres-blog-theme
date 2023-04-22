@@ -3,7 +3,7 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #00478B;
-  color: #F6AB43;
+  color: white;
 }
 @media (max-width:768px) {
   footer {
@@ -30,5 +30,5 @@ footer .footerTitle .snsFooter i:hover {
   color: #FB966E;
 }
 footer .footerInfo a {
-  color: #F6AB43;
+  color: white;
 }/*# sourceMappingURL=footer.css.map */

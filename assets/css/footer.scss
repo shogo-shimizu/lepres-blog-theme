@@ -6,7 +6,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: $color-blue;
-    color: $color-white;
+    color: white;
     @media($md){
         display: block;
     }
@@ -36,7 +36,7 @@ footer{
     }
     .footerInfo{
         a{
-            color: $color_white;
+            color: white;
         }
     }
 }

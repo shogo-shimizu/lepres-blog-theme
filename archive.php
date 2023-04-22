@@ -7,6 +7,7 @@
     <div class="menu">
         <?php include(get_template_directory() . '/inc/navbar.php'); ?>
     </div>
+    <div class="backgroundImage"></div>
 <main>
         <!-- 新着記事一覧 -->
         <div class="newContents">
@@ -23,7 +24,7 @@
 
                                 <?php else : ?>
 
-                                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/flower.jpg" alt="アイキャッチ">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/none.jpeg" alt="アイキャッチ">
 
                                 <?php endif; ?>
                             </figure>

@@ -42,7 +42,7 @@
 
                                 <?php else : ?>
 
-                                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/graf-rabbit.png" alt="アイキャッチ">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/none.jpeg" alt="アイキャッチ">
 
                                 <?php endif; ?>
                             </figure>

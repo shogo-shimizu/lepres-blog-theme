@@ -89,11 +89,11 @@ div#ez-toc-container {
 }
 
 div#ez-toc-container p.ez-toc-title:before {
-  content: "\f4d8";
+  content: "\f52d";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   padding-right: 8px;
-  color: #F0A986;
+  color: #00478B;
 }
 
 #ez-toc-container nav {
@@ -127,8 +127,8 @@ div#ez-toc-container ul li {
 }
 
 .ez-toc-counter nav ul li a::before {
-  color: #FB966E;
-  content: "\f787";
+  color: #00478B;
+  content: "\f304";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   padding-right: 0.3em;
@@ -263,8 +263,6 @@ main .content {
   min-width: 600px;
   padding: 30px;
   background-color: #FFFFEA;
-  font-weight: 300;
-  font-style: normal;
 }
 @media (max-width:768px) {
   main .content {
@@ -287,7 +285,7 @@ main .content .singleThumbnail img {
   max-width: 100%;
 }
 main .content h1 {
-  color: #9F353A;
+  color: #00478B;
   margin-top: 20px;
   margin-bottom: 100px;
   padding-bottom: 20px;
@@ -312,7 +310,7 @@ main .content h2 {
   box-shadow: 0px 0px 0px 5px #00478B;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
-  color: #F6AB43;
+  color: #FFFFEA;
   margin-bottom: 30px;
 }
 main .content h3 {
