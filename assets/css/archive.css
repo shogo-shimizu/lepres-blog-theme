@@ -240,14 +240,14 @@ main .pagination a {
   text-decoration: none;
   padding: 5px;
   border-radius: 10px;
-  color: #F6AB43;
+  color: white;
 }
 main .pagination span.current {
-  background-color: #D7C4BB;
+  background-color: #FB966E;
   text-decoration: none;
   padding: 5px;
   border-radius: 10px;
-  color: #F6AB43;
+  color: white;
 }
 
 .menunavigation {

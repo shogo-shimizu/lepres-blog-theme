@@ -91,8 +91,9 @@ Theme Name: fox-hare
 }
 @media (max-width:768px) {
   .header .headerLeft {
-    border-bottom: none;
+    border-bottom: 5px solid #00478B;
     border-right: none;
+    box-shadow: 0 5px 5px rgba(51, 51, 51, 0.6);
     display: flex;
     height: 100%;
     background-image: url("../images/graf-rabbit.png");
@@ -120,10 +121,10 @@ Theme Name: fox-hare
 }
 @media (max-width:768px) {
   .header .headerLeft .title {
-    width: 100%;
-    transform: none;
+    width: 200%;
+    height: auto;
     background: none;
-    position: static;
+    position: absolute;
     row-gap: 0;
     flex-direction: column;
   }
@@ -133,15 +134,14 @@ Theme Name: fox-hare
   width: 100%;
   font-size: 8em;
   color: #F6AB43;
-  text-shadow: 2px 2px 2px rgba(250, 250, 250, 0.8);
+  text-shadow: 3px 3px 2px rgba(51, 51, 51, 0.8);
 }
 @media (max-width:768px) {
   .header .headerLeft .title h1 {
     font-size: 5em;
-    color: #00478B;
-    text-align: left;
-    padding-left: 30px;
-    background-color: rgba(250, 250, 250, 0.4);
+    color: #F6AB43;
+    text-align: center;
+    background-color: #00478B;
   }
 }
 .header .headerLeft .title h4 {
@@ -155,7 +155,7 @@ Theme Name: fox-hare
 @media (max-width:768px) {
   .header .headerLeft .title h4 {
     font-size: 1.7em;
-    color: #FB966E;
+    color: #333;
     padding-left: 0;
     text-shadow: 1px 1px 1px rgba(250, 250, 250, 0.8);
   }
@@ -262,7 +262,7 @@ main .newContents_content .newContent .categoryLinks a {
   margin-bottom: 3px;
   padding: 2px 5px 2px 5px;
   text-align: center;
-  color: #F6AB43;
+  color: white;
   text-decoration: none;
   font-size: 0.8em;
   transition: 0.3s;
@@ -281,7 +281,7 @@ main .newContents_content .newContent .tagLinks a {
   margin-bottom: 3px;
   padding: 2px 5px 2px 5px;
   text-align: center;
-  color: #F6AB43;
+  color: white;
   text-decoration: none;
   font-size: 0.8em;
   transition: 0.3s;
@@ -313,13 +313,13 @@ main .pagination a {
   text-decoration: none;
   padding: 4px;
   border-radius: 10px;
-  color: #F6AB43;
+  color: white;
   box-shadow: 1px 1px 2px rgba(51, 51, 51, 0.4);
 }
 main .pagination span.current {
-  background-color: #D7C4BB;
+  background-color: #FB966E;
   text-decoration: none;
   padding: 4px;
   border-radius: 10px;
-  color: #F6AB43;
+  color: white;
 }/*# sourceMappingURL=home.css.map */

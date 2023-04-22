@@ -12,6 +12,30 @@ header{
     height: 400px;
     display: flex;
     align-items: center;
+    h1{
+        background-color: rgba($color_blue,0.9);
+        width: 100%;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: title_fade 1s ease-in-out forwards;
+    }
+    @keyframes title_fade {
+        0%{
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }
 .navigation{
     box-shadow: 2px 2px 10px rgba(#333,0.4);
@@ -67,6 +91,49 @@ main{
             img{
                 height: auto;
                 max-width: 100%;
+            }
+        }
+        .categoryLinks{     
+            display: flex;
+            flex-wrap: wrap;        
+            a{
+                // width: 100%;
+                // height: 100%;
+                background-color: $color_deepBlue;
+                border-radius: 10px;
+                margin-right: 3px;
+                margin-bottom: 3px;
+                padding: 2px 5px 2px 5px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                font-size: 0.8em;
+                transition: 0.3s;
+                // white-space: nowrap;
+                &:hover{
+                    opacity: 0.6;
+                }
+            }
+        }
+        .tagLinks{    
+            display: flex;
+            flex-wrap: wrap;                
+            a{
+                // width: 100%;
+                // height: 100%;
+                background-color: $color_orange;
+                border-radius: 10px;
+                margin-right: 3px;
+                margin-bottom: 3px;
+                padding: 2px 5px 2px 5px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                font-size: 0.8em;
+                transition: 0.3s;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
         }
         h1{
