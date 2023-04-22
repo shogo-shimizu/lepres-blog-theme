@@ -78,6 +78,8 @@ Theme Name: lepres-lab
 }
 .header {
   width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
   height: calc(100vh - 150px);
 }
 @media (max-width:768px) {
