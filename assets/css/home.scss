@@ -19,6 +19,18 @@ Theme Name: lepres-lab
         align-items: center;
         // border-right: 1px solid $color_blue;
         position: relative;
+        @media($lg){
+            width: 100%;
+            border-bottom: 5px solid $color_blue;   
+            border-right: none;
+            box-shadow: 0 5px 5px rgba(#333,0.6);
+            display: flex;
+            height: 100%;
+            background-image: url("../images/graf-rabbit.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
         @media($md){
             border-bottom: 5px solid $color_blue;   
             border-right: none;
@@ -27,6 +39,8 @@ Theme Name: lepres-lab
             height: 100%;
             background-image: url("../images/graf-rabbit.png");
             background-size: cover;
+            background-position: left;
+
         }
         .title{
             width: 300%;
@@ -49,6 +63,19 @@ Theme Name: lepres-lab
             background-color: $color_blue;
             transform: rotate(-35deg) translateX(-30%) translateY(10%);
             z-index: 0;
+            @media($lg){
+                // width: 200%;
+                height: auto;
+                // transform:none;
+                // background:none;
+                // position: static;
+                top: -50%;
+                left: -50%;
+                position: absolute;
+                row-gap: 0;
+                flex-direction: column;
+                padding: 10px;
+            }
             @media($md){
                 width: 200%;
                 height: auto;
@@ -56,6 +83,9 @@ Theme Name: lepres-lab
                 background:none;
                 // position: static;
                 position: absolute;
+                top: 0;
+                left: 0;
+                padding: 5%;
                 row-gap: 0;
                 flex-direction: column;
             }
@@ -65,6 +95,13 @@ Theme Name: lepres-lab
                 font-size: 8em;
                 color:$color_white;
                 text-shadow: 3px 3px 2px rgba(#333,0.8);
+                @media($lg){
+                    font-size: 5em;
+                    color:$color_white;
+                    text-align: center;
+                    // padding-left: 30px;
+                    background-color: $color_blue;
+                }
                 @media($md){
                     font-size: 5em;
                     color:$color_white;
@@ -80,6 +117,12 @@ Theme Name: lepres-lab
                 margin-top: 20px;
                 padding-left: 100px;
                 color:$color_white;
+                @media($lg){
+                    font-size: 1.7em;
+                    // color:#333;
+                    padding-left: 0;
+                    // text-shadow: 1px 1px 1px rgba(#fafafa,0.8);
+                }
                 @media($md){
                     font-size: 1.7em;
                     color:#333;
@@ -93,6 +136,10 @@ Theme Name: lepres-lab
         background-image: url("../images/graf-rabbit.png");
         background-size: cover;
         position: relative;
+        @media($lg){
+            border-bottom:  3px solid $color_blue;
+            display: none;
+        }
         @media($md){
             border-bottom:  3px solid $color_blue;
             display: none;
