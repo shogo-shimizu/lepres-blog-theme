@@ -47,7 +47,8 @@
 }
 .menunavigation nav .logo h4 {
   margin: 0;
-  font-size: 4em;
+  font-size: 3em;
+  white-space: nowrap;
 }
 @media (max-width:768px) {
   .menunavigation nav .logo h4 {
