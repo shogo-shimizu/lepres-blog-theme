@@ -82,6 +82,11 @@ Theme Name: lepres-lab
   margin: 0 auto;
   height: calc(100vh - 150px);
 }
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .header {
+    height: 100vh;
+  }
+}
 @media (max-width:768px) {
   .header {
     height: calc(100vh - 60px);
@@ -145,6 +150,14 @@ Theme Name: lepres-lab
     row-gap: 0;
     flex-direction: column;
     padding: 10px;
+    transform: rotate(-15deg) translateX(-30%) translateY(10%);
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .header .headerLeft .title {
+    top: -40%;
+    left: -40%;
+    transform: rotate(-25deg) translateX(-30%) translateY(10%);
   }
 }
 @media (max-width:768px) {
@@ -158,6 +171,7 @@ Theme Name: lepres-lab
     padding: 5%;
     row-gap: 0;
     flex-direction: column;
+    transform: rotate(-35deg) translateX(-30%) translateY(10%);
   }
 }
 .header .headerLeft .title h1 {
@@ -167,7 +181,7 @@ Theme Name: lepres-lab
   color: #F6AB43;
   text-shadow: 3px 3px 2px rgba(51, 51, 51, 0.8);
 }
-@media (max-width:1024px) {
+@media screen and (max-width:1024px) {
   .header .headerLeft .title h1 {
     font-size: 5em;
     color: #F6AB43;
@@ -175,7 +189,13 @@ Theme Name: lepres-lab
     background-color: #00478B;
   }
 }
-@media (max-width:768px) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .header .headerLeft .title h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width:768px) {
   .header .headerLeft .title h1 {
     font-size: 5em;
     color: #F6AB43;
@@ -195,6 +215,12 @@ Theme Name: lepres-lab
   .header .headerLeft .title h4 {
     font-size: 1.7em;
     padding-left: 0;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .header .headerLeft .title h4 {
+    font-size: 1em;
+    margin-top: 5px;
   }
 }
 @media (max-width:768px) {

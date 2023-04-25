@@ -10,6 +10,11 @@
   font-weight: 400;
   font-style: normal;
 }
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .menunavigation {
+    height: 60px;
+  }
+}
 @media (max-width:768px) {
   .menunavigation {
     height: 60px;
@@ -49,6 +54,12 @@
   margin: 0;
   font-size: 3em;
   white-space: nowrap;
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .menunavigation nav .logo h4 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+  }
 }
 @media (max-width:768px) {
   .menunavigation nav .logo h4 {
@@ -213,6 +224,6 @@
   }
 }
 .menunavigation.navFixed nav .logo h4 {
-  font-size: 3em;
+  font-size: 2.5em;
   transition: 0.3s;
 }/*# sourceMappingURL=navbar.css.map */
