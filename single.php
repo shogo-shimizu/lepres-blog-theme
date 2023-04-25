@@ -14,7 +14,17 @@
 
     <main>
         <div class="content">
-            <p><?php the_time(get_option('date_format')); ?></p>
+            <p>
+                <?php the_time(get_option('date_format')); ?>
+                <?php 
+                $author = get_userdata($post->post_author);
+                ?>
+                <a href="<?php echo home_url();?>/author/<?php echo $author->user_login; ?>">
+                <?php 
+                echo $author->display_name; 
+                 ?>
+                </a>
+            </p>
             <span class="categoryLinks">
                 <?php the_category('&nbsp'); ?>
             </span>

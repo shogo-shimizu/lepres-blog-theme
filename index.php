@@ -59,7 +59,11 @@
                                     ?>
                                 </a>
                             </h2>
-                            <p><?php the_time(get_option('date_format')); ?></p>
+                            <p>
+                                <?php the_time(get_option('date_format')); ?>
+                                <?php the_author(); ?>
+                            </p>
+
                             <span class="categoryLinks">
                                 <?php the_category('&nbsp'); ?>
                             </span>
