@@ -141,6 +141,9 @@ main{
                 }
             }
         }
+        p{
+            font-size:1.1em;
+        }
         h1{
             color: $color_blue;
             margin-top: 20px;
@@ -169,6 +172,7 @@ main{
             padding: 0.2em 0.5em;
             color: $color_back;
             margin-bottom: 30px;
+            margin-top: 60px;
         }
         // h2{
         //     border-left: 6px solid $color_deepBlue;
@@ -187,6 +191,7 @@ main{
             padding-left: 25px;
             padding-bottom: 5px;
             margin-bottom: 30px;
+            margin-top: 60px;
             &:before {
                 position: absolute;
                 content: '';
@@ -303,7 +308,7 @@ main{
             margin-left: 30px;/*はみ出ないように調整*/
             margin-right: 10px;/*はみ出ないように調整*/
             padding: 0.2em 0.5em 0.2em 2em;
-            display: inline-block;
+            // display: inline-block;
             
             ul, ol{
                 background: none;

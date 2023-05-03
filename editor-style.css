@@ -67,6 +67,9 @@ body .tagLinks a {
 body .tagLinks a:hover {
   opacity: 0.6;
 }
+body p {
+  font-size: 1.1em;
+}
 body h1 {
   color: #00478B;
   margin-top: 20px;
@@ -95,12 +98,14 @@ body h2 {
   padding: 0.2em 0.5em;
   color: #FFFFEA;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 body h3 {
   position: relative;
   padding-left: 25px;
   padding-bottom: 5px;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 body h3:before {
   position: absolute;
@@ -194,7 +199,6 @@ body ul, body ol {
   margin-left: 30px; /*はみ出ないように調整*/
   margin-right: 10px; /*はみ出ないように調整*/
   padding: 0.2em 0.5em 0.2em 2em;
-  display: inline-block;
 }
 body ul ul, body ul ol, body ol ul, body ol ol {
   background: none;
